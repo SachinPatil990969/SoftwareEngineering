@@ -7,6 +7,6 @@ main(){
 		if (num%i==0){
 			flag=1;
 		}
-		}
-		(flag==0)?printf("\n Num is prime"):printf("\n num is not prime");
 	}
+		(flag==0)?printf("\n Num is prime"):printf("\n num is not prime");
+}
