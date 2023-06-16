@@ -10,7 +10,7 @@ main(){
 	printf("\n Substraction is %d",d);
 	e=a*b;
 	printf("\n Multiplication is %d",e);
-	f=a/b;
+	f=(float)a/b;
 	printf("\n Division is %f",f);
 	g=a%b;
 	printf("\n Modulo is %d",g);

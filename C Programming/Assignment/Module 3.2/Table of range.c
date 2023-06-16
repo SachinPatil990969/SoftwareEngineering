@@ -1,9 +1,13 @@
 #include<stdio.h>
 main(){
-	int i,x;
+	int i,j,x;
 	printf("\n Enter the last point of range:");
 	scanf("%d",&x);
-	for(i=1;i<=x;i++){
-		printf("%d %d %d %d %d %d %d %d %d %d\n",i,i*2,i*3,i*4,i*5,i*6,i*7,i*8,i*9,i*10);
+	printf("\n Table\n");
+	for(i=1;i<=10;i++){
+		for(j=1;j<=x;j++){
+		printf("\t %d * %d = %d",j,i,j*i);
+		}
+		printf("\n");
 	}
 }

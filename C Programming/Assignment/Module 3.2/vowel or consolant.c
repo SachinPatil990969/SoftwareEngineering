@@ -1,6 +1,6 @@
 #include<stdio.h>
 main(){
-	char ch;
+	char ch,a;
 	printf("\Enter any character : ");
 	scanf("%c",&ch);
 	switch(ch){

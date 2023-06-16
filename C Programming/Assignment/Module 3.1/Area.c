@@ -3,7 +3,7 @@ main (){
 	float a,b,c,d,e,f,g,h;
 	printf("\n Enter Redius of circle:");
 	scanf("%f",&a);
-	b=6.28*a;
+	b=3.14*a*a;
 	printf("\n Area of Circle: %f",b);
 	printf("\n Enter Both side length of rectangle:");
 	scanf("%f %f",&c,&d);
