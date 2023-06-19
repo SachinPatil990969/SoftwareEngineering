@@ -34,7 +34,7 @@ main(){
 		printf("\n the value of n=-1");
 	}
 	printf("\n--------------------------------------\n");
-	printf("\n Q7: devide mans in diff catagory according to height");
+	printf("\n Q7: divide mans in diff catagory according to height");
 	printf("\n Enter height in centimeter:");
 	scanf("%d",&z);
 	if (z<150){

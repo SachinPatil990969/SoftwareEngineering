@@ -4,7 +4,7 @@ int main(){
 	char ch;
 	printf("\n Welcome to Food Cart ");
 	printf("Please select the food to order");
-	lable:{
+	menu:{
 	printf("\n Press 1 for Pizza; Press 2 for Burger; Press 3 for Francky; Press 4 for Coke: ");
 	scanf("%d",&ch1);
 	switch(ch1){
@@ -82,10 +82,10 @@ int main(){
 	printf("\n Would you like to add more items");
 	printf("\n Press y to add more items or Press n to go to Total: ");
 	scanf("%s",&ch);
-	if(ch=='y'){
-		goto lable;
+	if(ch=='y' || ch=='Y'){
+		goto menu;
 	}
-	else if(ch=='n'){
+	else if(ch=='n' || ch=='N'){
 		printf("\n Your Total will be %d",total);
 		printf("\n Thank you for visit");
 	}
