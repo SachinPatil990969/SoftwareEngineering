@@ -2,8 +2,9 @@
 #include<string.h>
 
 int main(){
-	char x1[50],x2[50],x3[50],c;
+	char x1[50],x2[50],x3[50],c,a;
 	int ch,i,x=0;
+	fun:{
 	printf("\nenter 1 to reverse the string.");
 	printf("\nenter 2 to concatenation of 2 strings.");
 	printf("\nenter 3 to check string is palindrome or not.");
@@ -23,22 +24,22 @@ int main(){
 			printf("Reverese of the string is %s\n",strrev(x1));
 			break;
 		case 2:
-			printf("Enter the 1st string:");
+			printf("\nEnter the 1st string:");
 			scanf("%s",&x1);
-			printf("Enter the 2nd string:");
+			printf("\nEnter the 2nd string:");
 			scanf("%s",&x2);
 			strcat(x1,x2);
 			printf("concatenation of 2 strings is %s\n",x1);
 		break;
 		case 3:
-			printf("Enter the string:");
+			printf("\nEnter the string:");
 			scanf("%s",&x1);
 			strcpy(x2,x1);
 			strrev(x1);
 			(strcmp(x1,x2)==0)?printf("Given String is Palindrome"):printf("Given String is not palindrom");
 		break;
 		case 4:
-			printf("Enter the string:");
+			printf("\nEnter the string:");
 			scanf("%s",&x1);
 			strcpy(x2,x1);
 			printf("copied string is %s",x2);
@@ -82,5 +83,12 @@ int main(){
 		default :
 			printf("\nYou entered thr wrong choice, Please enter the correct choice.");
 		break;
+		}
+	}
+	printf("\nDo you want to continue.");
+	printf("\nPress Y to continue:");
+	scanf("%s",&a);
+	if(a=='y' || a=='Y'){
+		goto fun;
 	}
 }
