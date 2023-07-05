@@ -11,6 +11,5 @@ int main(){
 	printf("%d\n",sizeof(ch1));
 	printf("%s\n",strupr(ch1));
 	printf("%s\n",strlwr(ch1));
-	printf("%s\n",)
 	return 0;
 }
