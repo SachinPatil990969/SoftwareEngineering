@@ -19,39 +19,39 @@ int main(){
 	switch(ch){	
 		case 1:
 			printf("\nEnter the string:");
-			scanf("%s",&x1);
+			gets(x1);
 			printf("\n");
 			printf("Reverese of the string is %s\n",strrev(x1));
 			break;
 		case 2:
 			printf("\nEnter the 1st string:");
-			scanf("%s",&x1);
+			gets(x1);
 			printf("\nEnter the 2nd string:");
-			scanf("%s",&x2);
+			gets(x2);
 			strcat(x1,x2);
-			printf("concatenation of 2 strings is %s\n",x1);
+			printf("\nconcatenation of 2 strings is %s\n",x1);
 		break;
 		case 3:
 			printf("\nEnter the string:");
-			scanf("%s",&x1);
+			gets(x1);
 			strcpy(x2,x1);
 			strrev(x1);
 			(strcmp(x1,x2)==0)?printf("Given String is Palindrome"):printf("Given String is not palindrom");
 		break;
 		case 4:
 			printf("\nEnter the string:");
-			scanf("%s",&x1);
+			gets(x1);
 			strcpy(x2,x1);
 			printf("copied string is %s",x2);
 		break;
 		case 5:
 			printf("\nEnter the string:");
-			scanf("%s",&x1);
+			gets(x1);
 			printf("\nThe lenght of the string is %d\n",strlen(x1));
 		break;
 		case 6:
 			printf("\nEnter the string:");
-			scanf("%s",&x1);
+			gets(x1);
 			printf("\nEnter the character to check its frequency:");
 			scanf("%s",&c);
 			for(i=0;x1[i]!=0;i++){
