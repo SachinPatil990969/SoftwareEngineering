@@ -1,0 +1,5 @@
+# get substring from string (user input)
+str1 = input("Please enter a string: ")
+start = int(input("Enter from which position you want to create substring:"))
+end = int(input("Enter till which poaition you want to create substring:"))
+print(str1[start:end+1])
