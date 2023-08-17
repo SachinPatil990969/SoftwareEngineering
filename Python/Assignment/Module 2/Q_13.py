@@ -6,3 +6,6 @@ for i in str:
     if i == char:
         count = count + 1
 print("The frequency of",char,"in string is",count)
+
+x = str.count(char)
+print("The frequency of",char,"in string is",x)
