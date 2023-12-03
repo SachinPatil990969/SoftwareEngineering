@@ -8,3 +8,7 @@ for tup in list_of_tuples:
     dict_from_tuples[tup[0]] = tup[1]
 
 print(dict_from_tuples)
+
+dict2 = dict(list_of_tuples)
+
+print(dict_from_tuples)

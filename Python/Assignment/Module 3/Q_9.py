@@ -7,6 +7,6 @@ def output(list1, list2):
     return False 
 
 list1 = [1, 2, 3, 4, 5]
-list2 = [6, 7, 8, 9, 1]
+list2 = [6, 7, 3, 8, 9]
 
 print(output(list1, list2))
